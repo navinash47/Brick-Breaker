@@ -80,10 +80,10 @@ public class GamePlay extends JPanel implements KeyListener,ActionListener {
         g.fillRect(0, 0, 692, 3);
         g.fillRect(691, 0, 3, 592);
         
-        paddle= new ImageIcon("/home/avinash/Desktop/snake/paddle.png");
+        paddle= new ImageIcon("/resources/paddle.png");
         paddle.paintIcon(this,g,playerX,550);
         
-        brickball=new ImageIcon("/home/avinash/Desktop/snake/brickball.png");
+        brickball=new ImageIcon("/resources/brickball.png");
         brickball.paintIcon(this, g,ballposX, ballposY);
         if(totalbricks==0){
             g.setColor(Color.green);
